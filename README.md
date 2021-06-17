@@ -7,7 +7,6 @@ The "DreTai" instances are those proposed by Z. Drezner, P. Hahn and E. Taillard
 
 The "Palubeckis" instances are those proposed by G. Palubeckis in "Generating hard test instances with known optimal solution for the rectilinear quadratic assignment problem", Journal of Global Optimization, 1999, vol.15, n.2, 127-156, sourced from https://www.personalas.ktu.lt/~ginpalu/qproblem.html
 
-The "DruganComposite" generator is as proposed by M. Drugan in "Generating QAP instances with known optimum solution and additively decomposable cost function", J Comb Optim (2015) 30:1138–1172. The corresponding instances are created by this generator.
+The "DruganComposite" instances have been created by the generator proposed by M. Drugan in "Generating QAP instances with known optimum solution and additively decomposable cost function", J Comb Optim (2015) 30:1138–1172. The corresponding instances are created by this generator.
 
-The "StuFer" generator is as proposed by T. Stutzle and S. Fernandes in "New benchmark instances for the QAP and the
-experimental analysis of algorithms". The corresponding instances are created by this generator.
+The "StuFer" instances have been created by the generator proposed by T. Stutzle and S. Fernandes in "New benchmark instances for the QAP and the experimental analysis of algorithms". The corresponding instances are created by this generator.
