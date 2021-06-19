@@ -1,6 +1,9 @@
 #!/bin/bash
 
-LISTNAME="mylist"
+## BEGIN LIST CONFIG ##############################################################################
+
+LISTNAME="list-100"
+COMMENT="All instances with size 100 or less."
 
 # Select subdirectories from:
 # ("QAPLIB" "Palubeckis" "DreTai")
@@ -12,11 +15,13 @@ declare -a INSTSUBD=("QAPLIB" "Palubeckis" "DreTai")
 # "chr*|had|tai[be]|sko$"
 # For all instances:
 # ".*"
-AFILTER="chr*|had|tai[be]|sko$"
+AFILTER=".*"
 
 # Minimum and maximum sizes of instances to be put in the list - inclusive
 MINSIZE=0
 MAXSIZE=100
+
+## END LIST CONFIG ################################################################################
 
 PWDIR=`pwd`
 # These need to be absolute paths.
@@ -27,6 +32,9 @@ LISTFILE="$LISTDIR$LISTNAME"
 rm $LISTFILE
 touch $LISTFILE
 echo "List file to be created: $LISTFILE"
+echo $COMMENT >> $LISTFILE
+
+LCOUNT=0
 
 for EACHDIR in "${INSTSUBD[@]}"
 do
@@ -78,7 +86,11 @@ do
 		else
 			# :2 removes the leading ./
 			echo ${FIL:2} >> $LISTFILE
+			let "LCOUNT += 1"
 		fi
 	done
 	cd ..
 done
+
+echo "Number of files listed: $LCOUNT"
+sed -i '1s/^/'$LCOUNT'\n/' $LISTFILE
