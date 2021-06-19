@@ -1,0 +1,84 @@
+#!/bin/bash
+
+LISTNAME="mylist"
+
+# Select subdirectories from:
+# ("QAPLIB" "Palubeckis" "DreTai")
+declare -a INSTSUBD=("QAPLIB" "Palubeckis" "DreTai")
+
+# Filter instance names excluding all numbers
+# Uses regex, see https://en.wikipedia.org/wiki/Regular_expression#POSIX_basic_and_extended
+# for example:
+# "chr*|had|tai[be]|sko$"
+# For all instances:
+# ".*"
+AFILTER="chr*|had|tai[be]|sko$"
+
+# Minimum and maximum sizes of instances to be put in the list - inclusive
+MINSIZE=0
+MAXSIZE=100
+
+PWDIR=`pwd`
+# These need to be absolute paths.
+LISTDIR="$PWDIR/Lists/"
+INSTDIR="$PWDIR/ProblemData/"
+
+LISTFILE="$LISTDIR$LISTNAME"
+rm $LISTFILE
+touch $LISTFILE
+echo "List file to be created: $LISTFILE"
+
+for EACHDIR in "${INSTSUBD[@]}"
+do
+	echo "$INSTDIR$EACHDIR"
+	cd $INSTDIR
+	INSTFILES=`ls ./$EACHDIR/*`
+	for FIL in $INSTFILES
+	do
+		SIZESTR=$(sed "1!d" $FIL)
+
+		# Everything after the final /
+		DFIL="${FIL##*/}"
+
+		# Extension. We will reject anything except a .dat
+		EXTE="${FIL##*.}"
+
+		# Remove all non-alphabet characters, and the extension if any. Represents the "class" of the instance
+		ALFA=`echo $DFIL | tr -cd '[:alpha:]._-' | cut -d. -f1`
+		
+		# Debug echos
+		# echo ${FIL:2}
+		# echo ${DFIL}
+		# echo ${ALFA}
+		# echo "$((SIZESTR))"
+
+		ACCEPT=1
+		
+		# Check extension
+		if [[ $EXTE != "dat" ]]; then
+			ACCEPT=0
+			# echo "Failed due to file extension: $EXTE"
+		
+		# Check class match
+		elif [[ ! $ALFA =~ $AFILTER ]]; then
+			ACCEPT=0
+			# echo "Failed class regex comparison: $ALFA"
+		
+		# Check maxsize
+		elif [[ "$((SIZESTR))" -gt "$MAXSIZE" ]]; then
+			ACCEPT=0 
+			# echo "Failed maxsize restriction: $((SIZESTR))"
+			
+		# Check minsize
+		elif [[ "$((SIZESTR))" -lt "$MINSIZE" ]]; then
+			ACCEPT=0 
+			# echo "Failed minsize restriction: $((SIZESTR))"
+		
+		# Passed all tests, add to list file
+		else
+			# :2 removes the leading ./
+			echo ${FIL:2} >> $LISTFILE
+		fi
+	done
+	cd ..
+done
