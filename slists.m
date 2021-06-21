@@ -1,0 +1,5 @@
+makelist("list-1-50-s", "All instances sizes 1-50, sorted by size.", [], [], 1, 50, true)
+makelist("list-51-100-s", "All instances sizes 51-100, sorted by size.", [], [], 51, 100, true)
+makelist("list-101-200-s", "All instances sizes 101-200, sorted by size.", [], [], 101, 200, true)
+makelist("list-201-400-s", "All instances sizes 201-400, sorted by size.", [], [], 201, 400, true)
+makelist("list-401-Inf-s", "All instances sizes 401-Inf, sorted by size.", [], [], 401, Inf, true)
