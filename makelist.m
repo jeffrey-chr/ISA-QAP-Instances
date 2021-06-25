@@ -59,7 +59,7 @@ for i = 1:numel(instsubd)
         n3 = regexp(n2,afilter);
         
         if (ss >= minsize && ss <= maxsize && strcmp(instfiles(j).name(end-3:end),'.dat') && ~isempty(n3))
-            instances(end+1) = strcat(instsubd(i),'\',instfiles(j).name);
+            instances(end+1) = strrep(strcat(instsubd(i),'\',instfiles(j).name),'\','/');
             instsizes(end+1) = ss;
         end
     end
