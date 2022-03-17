@@ -2,13 +2,13 @@ function [] = makelist(listname, comment, instsubd, afilter, minsize, maxsize, s
 
 %% BEGIN LIST CONFIG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%listname = "list-401-400-s";
+%listname = "list-201-400-s";
 %comment = "All instances sizes 201-400, sorted by size.";
 
 % Select subdirectories from:
 % ["QAPLIB", "Palubeckis", "DreTai", "DruganComposite", "StuFer"]
 if isempty(instsubd)
-    instsubd = ["QAPLIB", "Palubeckis", "DreTai", "StuFer0624"];
+    instsubd = ["QAPLIB", "Palubeckis", "DreTai", "StuFer220317"];
 end
 
 % Filter instance names excluding all numbers

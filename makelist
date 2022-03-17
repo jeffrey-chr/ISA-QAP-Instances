@@ -7,7 +7,7 @@ COMMENT="All instances with size 100 or less."
 
 # Select subdirectories from:
 # ("QAPLIB" "Palubeckis" "DreTai")
-declare -a INSTSUBD=("QAPLIB" "Palubeckis" "DreTai")
+declare -a INSTSUBD=("QAPLIB" "Palubeckis" "DreTai" "StuFer220317")
 
 # Filter instance names excluding all numbers
 # Uses regex, see https://en.wikipedia.org/wiki/Regular_expression#POSIX_basic_and_extended
