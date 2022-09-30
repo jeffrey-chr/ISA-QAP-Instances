@@ -8,7 +8,7 @@ function [] = makelist(listname, comment, instsubd, afilter, minsize, maxsize, s
 % Select subdirectories from:
 % ["QAPLIB", "Palubeckis", "DreTai", "DruganComposite", "StuFer"]
 if isempty(instsubd)
-    instsubd = ["QAPLIB", "Palubeckis", "DreTai", "StuFer220317"];
+    instsubd = ["QAPLIB", "Palubeckis", "DreTai", "Generated"];
 end
 
 % Filter instance names excluding all numbers
