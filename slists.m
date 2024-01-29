@@ -5,6 +5,7 @@ makelist("list-76-100-s", "All instances sizes 76-100, sorted by size.", [], [],
 % makelist("list-101-128-s", "All instances sizes 101-128, sorted by size.", [], [], 101, 128, true)
 makelist("list-101-120-s", "All instances sizes 101-120, sorted by size.", [], [], 101, 120, true)
 makelist("list-121-128-s", "All instances sizes 121-128, sorted by size.", [], [], 121, 128, true)
+makelist("list-25-128-s", "All instances sizes 25-128, sorted by size.", [], [], 25, 128, true)
 %makelist("list-126-150-s", "All instances sizes 126-150, sorted by size.", [], [], 126, 150, true)
 %makelist("list-151-200-s", "All instances sizes 151-200, sorted by size.", [], [], 151, 200, true)
 %makelist("list-201-400-s", "All instances sizes 201-400, sorted by size.", [], [], 201, 400, true)

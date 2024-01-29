@@ -1,4 +1,4 @@
-126
+146
 All instances sizes 76-100, sorted by size.
 QAPLIB/lipa80a.dat
 QAPLIB/lipa80b.dat
@@ -14,6 +14,16 @@ PaluGen/xPalu80_6.dat
 PaluGen/xPalu80_7.dat
 PaluGen/xPalu80_8.dat
 PaluGen/xPalu80_9.dat
+PaluEuclidGen/xPaEu80_1.dat
+PaluEuclidGen/xPaEu80_10.dat
+PaluEuclidGen/xPaEu80_2.dat
+PaluEuclidGen/xPaEu80_3.dat
+PaluEuclidGen/xPaEu80_4.dat
+PaluEuclidGen/xPaEu80_5.dat
+PaluEuclidGen/xPaEu80_6.dat
+PaluEuclidGen/xPaEu80_7.dat
+PaluEuclidGen/xPaEu80_8.dat
+PaluEuclidGen/xPaEu80_9.dat
 StuFerGen/stf80ep1.dat
 StuFerGen/stf80ep2.dat
 StuFerGen/stf80ep3.dat
@@ -64,7 +74,7 @@ UniRndGen/xran85S1.dat
 QAPLIB/lipa90a.dat
 QAPLIB/lipa90b.dat
 QAPLIB/sko90.dat
-DreTai/dre90.dat
+Drezner/dre90.dat
 TaiBGen/xtab90N2.dat
 TaiBGen/xtab90T2.dat
 UniRndGen/xran90A1.dat
@@ -92,6 +102,16 @@ PaluGen/xPalu100_6.dat
 PaluGen/xPalu100_7.dat
 PaluGen/xPalu100_8.dat
 PaluGen/xPalu100_9.dat
+PaluEuclidGen/xPaEu100_1.dat
+PaluEuclidGen/xPaEu100_10.dat
+PaluEuclidGen/xPaEu100_2.dat
+PaluEuclidGen/xPaEu100_3.dat
+PaluEuclidGen/xPaEu100_4.dat
+PaluEuclidGen/xPaEu100_5.dat
+PaluEuclidGen/xPaEu100_6.dat
+PaluEuclidGen/xPaEu100_7.dat
+PaluEuclidGen/xPaEu100_8.dat
+PaluEuclidGen/xPaEu100_9.dat
 StuFerGen/stf100ep1.dat
 StuFerGen/stf100ep2.dat
 StuFerGen/stf100ep3.dat

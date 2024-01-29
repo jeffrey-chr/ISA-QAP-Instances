@@ -1,4 +1,4 @@
-67
+77
 All instances sizes 101-120, sorted by size.
 TaiBGen/xtab105N2.dat
 TaiBGen/xtab105T2.dat
@@ -14,7 +14,7 @@ TermGen/term105_8.dat
 TermGen/term105_9.dat
 UniRndGen/xran105A1.dat
 UniRndGen/xran105S1.dat
-DreTai/dre110.dat
+Drezner/dre110.dat
 TaiBGen/xtab110N2.dat
 TaiBGen/xtab110T2.dat
 UniRndGen/xran110A1.dat
@@ -33,6 +33,16 @@ PaluGen/xPalu120_6.dat
 PaluGen/xPalu120_7.dat
 PaluGen/xPalu120_8.dat
 PaluGen/xPalu120_9.dat
+PaluEuclidGen/xPaEu120_1.dat
+PaluEuclidGen/xPaEu120_10.dat
+PaluEuclidGen/xPaEu120_2.dat
+PaluEuclidGen/xPaEu120_3.dat
+PaluEuclidGen/xPaEu120_4.dat
+PaluEuclidGen/xPaEu120_5.dat
+PaluEuclidGen/xPaEu120_6.dat
+PaluEuclidGen/xPaEu120_7.dat
+PaluEuclidGen/xPaEu120_8.dat
+PaluEuclidGen/xPaEu120_9.dat
 StuFerGen/stf120ep1.dat
 StuFerGen/stf120ep2.dat
 StuFerGen/stf120ep3.dat
