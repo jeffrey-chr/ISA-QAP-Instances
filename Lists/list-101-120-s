@@ -1,7 +1,7 @@
 77
 All instances sizes 101-120, sorted by size.
-TaiBGen/xtab105N2.dat
-TaiBGen/xtab105T2.dat
+TaiBGen/xtab105N1.dat
+TaiBGen/xtab105T1.dat
 TermGen/term105_1.dat
 TermGen/term105_10.dat
 TermGen/term105_2.dat
@@ -15,12 +15,12 @@ TermGen/term105_9.dat
 UniRndGen/xran105A1.dat
 UniRndGen/xran105S1.dat
 Drezner/dre110.dat
-TaiBGen/xtab110N2.dat
-TaiBGen/xtab110T2.dat
+TaiBGen/xtab110N1.dat
+TaiBGen/xtab110T1.dat
 UniRndGen/xran110A1.dat
 UniRndGen/xran110S1.dat
-TaiBGen/xtab115N2.dat
-TaiBGen/xtab115T2.dat
+TaiBGen/xtab115N1.dat
+TaiBGen/xtab115T1.dat
 UniRndGen/xran115A1.dat
 UniRndGen/xran115S1.dat
 PaluGen/xPalu120_1.dat
@@ -73,7 +73,7 @@ StuFerGen/stf120ms2.dat
 StuFerGen/stf120ms3.dat
 StuFerGen/stf120ms4.dat
 StuFerGen/stf120ms5.dat
-TaiBGen/xtab120N2.dat
-TaiBGen/xtab120T2.dat
+TaiBGen/xtab120N1.dat
+TaiBGen/xtab120T1.dat
 UniRndGen/xran120A1.dat
 UniRndGen/xran120S1.dat
