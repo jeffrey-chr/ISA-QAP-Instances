@@ -1,5 +1,7 @@
-30
+40
 QAPSAT instances
+QAPSAT/qapsatE25_1.dat
+QAPSAT/qapsatH25_1.dat
 QAPSAT/qapsatE30_1.dat
 QAPSAT/qapsatH30_1.dat
 QAPSAT/qapsatE35_1.dat
@@ -30,3 +32,11 @@ QAPSAT/qapsatE95_1.dat
 QAPSAT/qapsatH95_1.dat
 QAPSAT/qapsatE100_1.dat
 QAPSAT/qapsatH100_1.dat
+QAPSAT/qapsatE105_1.dat
+QAPSAT/qapsatH105_1.dat
+QAPSAT/qapsatE110_1.dat
+QAPSAT/qapsatH110_1.dat
+QAPSAT/qapsatE115_1.dat
+QAPSAT/qapsatH115_1.dat
+QAPSAT/qapsatE120_1.dat
+QAPSAT/qapsatH120_1.dat
