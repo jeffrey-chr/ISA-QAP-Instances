@@ -4,6 +4,8 @@ TaiBGen/xtab55N1.dat
 TaiBGen/xtab55T1.dat
 UniRndGen/xran55A1.dat
 UniRndGen/xran55S1.dat
+QAPSAT/qapsatE55_1.dat
+QAPSAT/qapsatH55_1.dat
 QAPLIB/sko56.dat
 Drezner/dre56.dat
 QAPLIB/lipa60a.dat
@@ -20,16 +22,6 @@ PaluGen/xPalu60_6.dat
 PaluGen/xPalu60_7.dat
 PaluGen/xPalu60_8.dat
 PaluGen/xPalu60_9.dat
-PaluEuclidGen/xPaEu60_1.dat
-PaluEuclidGen/xPaEu60_10.dat
-PaluEuclidGen/xPaEu60_2.dat
-PaluEuclidGen/xPaEu60_3.dat
-PaluEuclidGen/xPaEu60_4.dat
-PaluEuclidGen/xPaEu60_5.dat
-PaluEuclidGen/xPaEu60_6.dat
-PaluEuclidGen/xPaEu60_7.dat
-PaluEuclidGen/xPaEu60_8.dat
-PaluEuclidGen/xPaEu60_9.dat
 StuFerGen/stf60ep1.dat
 StuFerGen/stf60ep2.dat
 StuFerGen/stf60ep3.dat
@@ -64,6 +56,8 @@ TaiBGen/xtab60N1.dat
 TaiBGen/xtab60T1.dat
 UniRndGen/xran60A1.dat
 UniRndGen/xran60S1.dat
+QAPSAT/qapsatE60_1.dat
+QAPSAT/qapsatH60_1.dat
 QAPLIB/esc64a.dat
 QAPLIB/sko64.dat
 QAPLIB/tai64c.dat
@@ -79,12 +73,16 @@ TaiBGen/xtab65N1.dat
 TaiBGen/xtab65T1.dat
 UniRndGen/xran65A1.dat
 UniRndGen/xran65S1.dat
+QAPSAT/qapsatE65_1.dat
+QAPSAT/qapsatH65_1.dat
 QAPLIB/lipa70a.dat
 QAPLIB/lipa70b.dat
 TaiBGen/xtab70N1.dat
 TaiBGen/xtab70T1.dat
 UniRndGen/xran70A1.dat
 UniRndGen/xran70S1.dat
+QAPSAT/qapsatE70_1.dat
+QAPSAT/qapsatH70_1.dat
 QAPLIB/sko72.dat
 Drezner/dre72.dat
 TaiBGen/xtab75N1.dat
@@ -101,3 +99,5 @@ TermGen/term75_8.dat
 TermGen/term75_9.dat
 UniRndGen/xran75A1.dat
 UniRndGen/xran75S1.dat
+QAPSAT/qapsatE75_1.dat
+QAPSAT/qapsatH75_1.dat

@@ -1,9 +1,11 @@
-88
+100
 All instances sizes 25-50, sorted by size.
 QAPLIB/chr25a.dat
 QAPLIB/nug25.dat
 QAPLIB/tai25a.dat
 QAPLIB/tai25b.dat
+QAPSAT/qapsatE25_1.dat
+QAPSAT/qapsatH25_1.dat
 QAPLIB/bur26a.dat
 QAPLIB/bur26b.dat
 QAPLIB/bur26c.dat
@@ -28,6 +30,8 @@ TaiBGen/xtab30N1.dat
 TaiBGen/xtab30T1.dat
 UniRndGen/xran30A1.dat
 UniRndGen/xran30S1.dat
+QAPSAT/qapsatE30_1.dat
+QAPSAT/qapsatH30_1.dat
 QAPLIB/esc32a.dat
 QAPLIB/esc32b.dat
 QAPLIB/esc32c.dat
@@ -50,6 +54,8 @@ TaiBGen/xtab35N1.dat
 TaiBGen/xtab35T1.dat
 UniRndGen/xran35A1.dat
 UniRndGen/xran35S1.dat
+QAPSAT/qapsatE35_1.dat
+QAPSAT/qapsatH35_1.dat
 QAPLIB/ste36a.dat
 QAPLIB/ste36b.dat
 QAPLIB/ste36c.dat
@@ -62,6 +68,8 @@ TaiBGen/xtab40N1.dat
 TaiBGen/xtab40T1.dat
 UniRndGen/xran40A1.dat
 UniRndGen/xran40S1.dat
+QAPSAT/qapsatE40_1.dat
+QAPSAT/qapsatH40_1.dat
 QAPLIB/sko42.dat
 Drezner/dre42.dat
 TaiBGen/xtab45N1.dat
@@ -78,6 +86,8 @@ TermGen/term45_8.dat
 TermGen/term45_9.dat
 UniRndGen/xran45A1.dat
 UniRndGen/xran45S1.dat
+QAPSAT/qapsatE45_1.dat
+QAPSAT/qapsatH45_1.dat
 QAPLIB/sko49.dat
 QAPLIB/lipa50a.dat
 QAPLIB/lipa50b.dat
@@ -88,3 +98,5 @@ TaiBGen/xtab50N1.dat
 TaiBGen/xtab50T1.dat
 UniRndGen/xran50A1.dat
 UniRndGen/xran50S1.dat
+QAPSAT/qapsatE50_1.dat
+QAPSAT/qapsatH50_1.dat
