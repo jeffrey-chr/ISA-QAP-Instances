@@ -1,0 +1,6 @@
+4
+Instances for tinytest
+tinytest/tiny5.dat
+tinytest/tiny6.dat
+tinytest/tiny7.dat
+tinytest/tiny8.dat
