@@ -1,6 +1,9 @@
-4
+7
 Instances for equivtest
 UniRndGen/xran30S1.dat
 Drezner/dre56.dat
 QAPLIB/tai60a.dat
 QAPLIB/tai60b.dat
+QAPLIB/tai50a.dat
+QAPLIB/tai50b.dat
+TermGen/term45_1.dat
