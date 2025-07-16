@@ -52,6 +52,7 @@ for i = 1:numel(instsubd)
     for j = 3:numel(instfiles)
         ifID = fopen([instfiles(j).folder '\' instfiles(j).name],'r');
         ss = str2num(fgets(ifID));
+        ss = ss(1);
         fclose(ifID);
         
         n1 = instfiles(j).name(1:end-4);
